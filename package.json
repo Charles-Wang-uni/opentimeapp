@@ -1,0 +1,30 @@
+{
+  "name": "wx-storeopentime",
+  "version": "1.0.0",
+  "description": "Get open time for stores in Lux.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charles-Wang-uni/wx-storeopentime.git"
+  },
+  "keywords": [
+    "wx",
+    "opentime",
+    "store",
+    "lux"
+  ],
+  "author": "chunhui WANG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Charles-Wang-uni/wx-storeopentime/issues"
+  },
+  "homepage": "https://github.com/Charles-Wang-uni/wx-storeopentime#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment-timezone": "^0.5.14"
+  }
+}
