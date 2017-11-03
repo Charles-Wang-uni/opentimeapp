@@ -62,7 +62,7 @@ function sendOpenTime(callback) {
 }
 
 
-router.get('/', function (req, res) {
+router.post('/', function (req, res) {
   sendOpenTime(function (msg) {
     res.send(msg);
   });

@@ -26,6 +26,6 @@
 	"dependencies": {
 		"express": "^4.16.2",
 		"moment-timezone": "^0.5.14",
-    "debug": "~2.6.9"
+		"debug": "~2.6.9"
 	}
 }
